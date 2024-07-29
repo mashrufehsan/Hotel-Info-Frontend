@@ -21,7 +21,7 @@ This repository contains the frontend of the Hotel Details application. The fron
     ```
 2. Navigate to the project directory:
     ```bash
-    cd hotel-information
+    cd Hotel-Info-Frontend
     ```
 3. Install the dependencies:
     ```bash
