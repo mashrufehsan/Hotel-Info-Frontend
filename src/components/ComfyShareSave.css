@@ -1,0 +1,23 @@
+.comfy-right-item img{
+    /* width: 20px; */
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.comfy-right-item{
+    display: flex;
+    align-items: center;
+}
+
+.comfy-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.comfy-right{
+    display: flex;
+}

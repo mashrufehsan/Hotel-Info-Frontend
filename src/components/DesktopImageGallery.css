@@ -1,0 +1,93 @@
+.banner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+.banner-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.banner-container img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.round-left img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-right: 10px;
+}
+
+.round-top-right {
+    border-top-right-radius: 15px;
+}
+
+.round-bottom-right{
+    border-bottom-right-radius: 15px;
+}
+
+.grid2x2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.grid2x2 > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 5px;
+}
+
+.image-button-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-button-container img {
+    display: block;
+}
+
+.nine-dots-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 4px 15px;
+}
+
+.nine-dots-btn > img{
+    width: 25px;
+    margin-right: 5px;
+}
+
+.image-button{
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .nine-dots-btn > button{
+        display: none;
+    }
+
+    .nine-dots-btn > img{
+        width: 15px;
+        margin-right: 0;
+    }
+
+    .nine-dots-btn {
+        bottom: 10px;
+        right: 10px;
+    }
+}

@@ -1,0 +1,55 @@
+.modal {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.modal-1{
+    width: 400px;
+}
+
+
+.modal-content {
+    padding: 20px;
+}
+
+.grid3x3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid3x3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(196, 196, 196);
+    cursor: pointer;
+}
+
+.grid3x3 p{
+    font-size: 10px;
+    padding-left: 3px;
+}
+
+.modal-1 h5{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-1{
+        top: 280px;
+        left: 30%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-1{
+        top: 32%;
+        left: 50%;
+    }
+}

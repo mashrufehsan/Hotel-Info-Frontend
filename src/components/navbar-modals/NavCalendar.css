@@ -1,0 +1,91 @@
+.check-in-out-header-container{
+    display: flex;
+    justify-content: center;
+}
+
+.check-in-out-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 20px;
+    width: 80%;
+}
+
+.check-in-out-header-item{
+    padding: 6px 9px;
+    margin: 3px;
+    border-radius: 20px;
+}
+
+.check-in-out-header-item p{
+    font-size: 13px;
+    color: #2c2c2c;
+    font-weight: 500;
+    margin: 0;
+}
+
+.check-in-out-header-item-1{
+    background-color: white;
+}
+
+.check-in-plus-minus, .check-out-plus-minus{
+    display: flex;
+}
+
+.check-in-plus-minus p:nth-of-type(2),
+.check-out-plus-minus p:nth-of-type(2) {
+    margin-left: 5px;
+}
+
+.plus-minus-footer-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.plus-minus-footer-container p{
+    font-size: 10px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.plus-minus-footer-item{
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 15px;
+    padding: 5px 7px;
+}
+
+.modal-2{
+    display: flex;
+    justify-content: center;
+    top: 320px;
+}
+
+.flatpickr-input{
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .check-in-calendar{
+        left: 40%;
+    }
+    
+    .check-out-calendar{
+        right: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .check-in-calendar{
+        top: 43%;
+        left: 50%;
+    }
+    
+    .check-out-calendar{
+        top: 47%;
+        left: 50%;
+    }
+}
