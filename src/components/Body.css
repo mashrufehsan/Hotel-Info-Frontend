@@ -1,0 +1,600 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.dates-for-prices { /* Center-align content inside the container */
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 15px;
+    padding: 25px;
+    margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 25px;
+}
+
+.dates-for-prices h1 { 
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #717171;
+}
+
+.dates-for-prices table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.dates-for-prices td {
+    width: 50%; 
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.dates-for-prices h3 {
+    margin: 0;
+    font-size: 15px;
+    color: #4d4d4d;
+}
+
+.dates-for-prices p {
+    margin-top: 2px;
+    font-size: 15px;
+    color: #868686;
+}
+
+.guest-box img{
+    width: 25px;
+    height: 100%;
+}
+
+.guest-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dates-for-prices table tr:first-child td:first-child {
+    border-top-left-radius: 10px;
+    border-right: none;
+}
+
+.dates-for-prices table tr:first-child td:last-child {
+    border-top-right-radius: 10px;
+}
+
+.dates-for-prices table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+    border-top: none;
+}
+
+.dates-for-prices table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.dates-for-prices button {
+    display: block;
+    margin: 20px auto 0;
+    background: linear-gradient(to right, #e82c58, #d70466);
+    color: white; 
+    border: none;
+    width: 100%;
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+.flag-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-container img{
+    width: 20px;
+    margin-right: 15px;
+}
+
+.flag-container p{
+    text-decoration: underline;
+    color: #606060;
+}
+
+.entire-rental-container > * {
+    margin-bottom: 10px; 
+}
+
+.entire-rental-container{
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-bottom: 20px;
+}
+
+.entire-rental-container p{
+    color: #505050;
+}
+
+.one{
+    margin-right: 100px;
+}
+
+.comfy-new-for-mobile{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.comfy-new-for-mobile h1{
+    font-size: 30px;
+}
+
+.host-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+
+}
+
+.host-container img{
+    width: 40px;
+    margin-right: 20px;
+}
+
+.host-container p, .self-check p, .superhost p{
+    color: #717171;
+    font-size: smaller;
+}
+
+.self-super-container img{
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.self-super-container{
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    margin-bottom: 30px;
+}
+
+.self-check, .superhost{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.translation{
+    font-size: 15px;
+    padding-left: 20px;
+    color: #353535;
+    margin-bottom: 30px;
+}
+
+.translation span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.welcome p{
+    margin-bottom: 20px;
+    color: #353535;
+}
+
+.show-more{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.show-more img{
+    width: 10px;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.show-more p{
+    text-decoration: underline;
+}
+
+.where-you-will-sleep img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.rooms-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.rooms-container img{
+    width: 240px;
+    border-radius: 15px;
+}
+
+
+.where-you-will-sleep-container h2 {
+    margin-bottom: 20px;
+}
+
+.where-you-will-sleep img {
+    margin-bottom: 20px;
+}
+
+.where-you-will-sleep > h4{
+    margin-bottom: 5px;
+}
+.where-you-will-sleep{
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+} 
+
+.place-offeres-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.place-offeres-sections img{
+    width: 20px;
+    margin: 0 10px 0 0;
+}
+
+.place-offeres-sections {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+
+.place-offeres-section h3{
+    margin-bottom: 30px;
+}
+
+.place-offeres-section p{
+    font-size: 15px;
+}
+
+#show32-btn{
+    width: 30%;
+    border: 1px solid black; 
+    border-radius: 10px; 
+    background-color: white; 
+    padding: 10px; 
+    cursor: pointer; 
+    text-align: center; 
+    font-size: 16px;
+}
+
+.text-line-through{
+    text-decoration: line-through;
+}
+
+.place-offeres-section{
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px; 
+}
+
+.calendar1, .calendar2 {
+    text-align: center;
+}
+
+.calendar {
+    margin: 0 auto;
+}
+
+.calendar-header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.calendar-header h2{
+    font-size: 15px;
+    font-weight: 600;
+    color: #3b3b3b;
+}
+
+.calendar-body {
+    padding-top: 20px;
+}
+
+.calendar-days, .calendar-dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    gap: 7px;
+    font-size: 13px;
+    color: #181818;
+}
+
+.calendar-days div {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.calendar-dates div {
+    padding: 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.calendar-dates div:hover {
+    background-color: #e0e0e0;
+}
+
+.calendar-invalid-date{
+    text-decoration: line-through;
+    color: #c7c6c6;
+}
+
+.calendar-container-main h3{
+    margin-bottom: 8px;
+}
+
+.calendar-container-main p{
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #868686;
+}
+
+.calendar1 img{
+    width: 25px;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+
+.calendar1 {
+    text-align: left;
+}
+
+.calendar2 p{
+    margin-top: 15px;
+    margin-right: 10px;
+    text-decoration: underline;
+    color: #3b3b3b;
+    font-weight: 600;
+}
+
+.calendar2 {
+    text-align: right;
+}
+
+.calendar2 .calendar-header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.calendar2 .calendar-header h2 {
+    text-align: center;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.calendar2 .calendar-header img{
+    width: 10px;
+    margin-right: 20px;
+}
+
+.no-reviews-container img{
+    width: 30px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.no-reviews-body{
+    display: flex;
+    margin-top: 20px;
+}
+
+.no-reviews-body span {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.no-reviews-body p{
+    width: 350px;
+}
+
+.no-reviews-container{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.where-youll-be-container img{
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.where-youll-be-container h3{
+    margin-bottom: 15px;
+}
+
+.where-youll-be-container p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #868686;
+}
+
+.where-youll-be-container{
+    margin-bottom: 30px;
+}
+
+.where-youll-be-footer img{
+    width: 9px;
+    height: 100%;
+}
+
+.where-youll-be-footer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.where-youll-be-footer h6{
+    text-decoration: underline;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.where-youll-be-container-mobile > img{
+    width: 100%;
+}
+
+.where-youll-be-container-mobile h3{
+    margin-bottom: 15px;
+}
+
+.where-youll-be-container-mobile p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #868686;
+}
+
+.where-youll-be-container-mobile{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.meet-your-host-container{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.profile-photo-box img{
+    width: 80px;
+}
+
+.profile-photo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box{
+    display: flex;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    justify-content: space-around;
+    padding: 30px 0;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.stat-box{
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    margin-left: 20px;
+}
+
+.stat-box h6{
+    font-size: 20px;
+}
+
+.stat-box p{
+    font-size: 12px;
+    color: #727272;
+}
+
+.stat-box:last-child {
+    border: none;
+}
+
+.host-details-icon{
+    width: 25px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.host-details-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.host-container1 .show-more{
+    margin-top: 10px;
+    font-weight: 600;
+    border: none;
+    padding: 0;
+}
+
+.host-container1 > p{
+    margin-top: 30px;
+    color: #5a5a5a;
+}
+
+.meet-your-host-container-main > h3{
+    margin-bottom: 20px;
+}
+
+.meet-your-host-container-main{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.co-hosts-container{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.co-host{
+    display: flex;
+    align-items: center;
+}
+
+.co-host img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.co-host h6{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.host-container2 h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.host-container2{
+    padding-left: 100px;
+}
+
+.co-host1{
+    margin-right: 30px;
+}
+
+.host-container2 .first-p{
+    margin-bottom: 30px;
+}
+
+#message-host-btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 15px;
+}
