@@ -5,8 +5,8 @@ This repository contains the frontend of the Hotel Details application. The fron
 ## Features
 - Displays hotel details with images, title, description, guest count, bedroom count, bathroom count, amenities, host information, address, and room information.
 - Reuses components where appropriate.
-- Uses a shimmer loader while data is being loaded. (In Progress)
-- Shows a 404 page for unknown slugs (In Progress).
+- Uses a shimmer loader while data is being loaded.
+- Shows a 404 page for unknown slugs.
 
 ## Technologies Used
 - React
